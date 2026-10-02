@@ -1,0 +1,5 @@
+[server]
+maxUploadSize = 2048  # MB, for large video uploads
+
+[browser]
+gatherUsageStats = false

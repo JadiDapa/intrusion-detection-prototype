@@ -1,0 +1,21 @@
+# secrets & site-specific config
+.env
+.streamlit/secrets.toml
+
+# outputs & data
+events/
+*.mp4
+*.avi
+# default video + zone for the deployed app
+!street.mp4
+
+# weights: official ones auto-download, but the custom model must be committed
+*.pt
+*.engine
+*.onnx
+!best.pt
+
+# python
+__pycache__/
+*.pyc
+.venv/
